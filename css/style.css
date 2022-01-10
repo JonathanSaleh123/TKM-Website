@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+black #02000C
+Navy Blue #0474BB
+Yellow #FBF304
+REd #C3242C
+Dark Blue #22449C
+Brass #B0B137
+
+
+*/
+/* Menu Navigation */
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.navbar-brand img{
+    height: 80px;
+    padding-left: 20px;
+}
+
+.navbar-nav li a{
+    float: right;
+    color: #000000!important;
+    font-weight: 600;
+}
+
+.navbar-nav li a:hover{
+    color: #0474BB!important;
+    
+}
+
+.navbar-nav li{
+    padding: 0px 10px;
+}
+
+.navbar{
+    background: #f7f7f7;
+}
+
+
+#slider{
+    width: 100%;
+    position: relative;
+}
+
+
+.carousel-inner{
+    height: 90vh;
+    background-size: cover;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/jakarta.jpg);
+    background-attachment: fixed;
+    background-repeat:round; */
+}
+
+/* .carousel-item{
+     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/jakarta.jpg);
+} */
+
+.carousel-caption{
+    position:absolute ;
+    top: 30%;
+    left: 0;
+}
+
+.carousel-indicators button{
+    background-color: black;
+}
+
+/* .carousel-caption{
+  
+    transform: translateY(0);
+    top: 50%;
+    bottom: initial!important;
+   
+} */
+.carousel-caption h5{
+    font-size: 4em;
+    
+}
+
+/* About Us */
+
+#about{
+    padding: 50px;
+    color: rgb(21, 20, 20);
+}
+
+#about .imgbox img{
+    width: 80%;
+}
+
+.progress-bar{
+    background-color: #FBF304!important;
+    border-radius: 10px;
+}
+
+.progress{
+    border-radius: 20px!important;
+    margin-bottom: 20px;
+}
+
+.service-bar p{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Services */
+
+#services{
+    padding: 50px 0px;
+    background-image: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0,0,0,0.5)),url(../img/jakarta3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+
+#services h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+}
+
+#services h2{
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+#services h1::after{
+    content:"";
+    display: block;
+    height: 3px;
+    width: 180px;
+    background:white!important;
+    margin:15px auto;
+}
+
+
+#services .icon{
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+#services p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.service-hover .col-md-4:hover{
+    background-color: #C3242C;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.service-hover .col-md-6:hover{
+    background-color: #C3242C;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+#teams{
+    padding: 50px 0px;
+    color: #555555;
+}
+
+#teams .imgbox img{
+    width:300px;
+    height:400px;
+}
+/* Repetisi H1 */
+
+ h1{
+    text-align: center;
+    padding-bottom: 10px;
+    color:black
+}
+
+h1::after{
+    content:"";
+    display: block;
+    height: 3px;
+    width: 180px;
+    background:#FBF304!important;
+    margin:15px auto;
+}
+
+.profile-pic{
+    margin-top: 25px;
+}
+
+#teams .profile-pic .imgbox img{
+    filter:grayscale(1)
+}
+
+#teams .profile-pic .imgbox img:hover{
+    filter:grayscale(0)
+}
+
+#teams .fab{
+    color: #FBF304!important;
+    padding : 5px;
+    background: white!important;
+    border-radius: 50%;
+}
+
+.profile-pic .imgbox ul li{
+    display:inline-block;
+    padding:5px;
+}
+
+.profile-pic .imgbox{
+    display: block;
+    position: relative;
+}
+
+.profile-pic .imgbox ul{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 0px;
+    opacity: 0;
+}
+#teams .profile-pic .imgbox:hover ul{
+   
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #C3242C!important;
+    margin-top: 15px;
+}
+
+.profile-pic h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.profile-pic p{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+#license{
+    padding: 50px 0px;
+    color: #ffffff;
+    background-color: grey;
+}
+
+#license .imgbox img{
+    width:300px;
+    height:400px;
+}
+
+#license .fab{
+    color: #FBF304!important;
+    padding : 5px;
+    background: white!important;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+#promo{
+    padding: 50px 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/12/jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    text-align: center;
+    font-size: 3em;
+}
+
+#price{
+    padding: 50px 0px;
+    background-color: rgb(216, 216, 216);
+
+}
+
+#price .single-price{
+    background:white;
+    margin:10px auto;
+
+}
+#price .single-price:hover{
+box-shadow:0px 2px 20px grey;
+transition: 0.25s;
+}
+.price-head{
+
+
+    color: white;
+    background-color: #FBF304;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.price-head h2{
+    font-size : 24px;
+    font-weight:bold;
+    margin-top: 5px;
+    padding : 5px;
+}
+
+.price-head p{
+    font-size: 25px;
+    font-weight:bold;
+    line-height: 30px;
+}
+
+.price-heade span{
+    font-size:16px;
+}
+
+.price-body{
+    padding: 0px 15px;
+}
+
+.price-body ul li{
+    list-style-type: none;
+    border-bottom:2px solid #efefef;
+    padding:15px 10px ;
+}
+
+.fa-check-circle{
+    color:green;
+    font-size:20px;
+    margin-right:10px;
+}
+
+.fa-times-circle{
+    color:red;
+    font-size:20px;
+    margin-right: 10px;
+}
+
+.price-btn{
+    padding:15px 15px 30px;
+    text-align: center;
+}
+
+
+.price-btn .buy-btn{
+    background: #0474BB;
+    display: inline-block;
+    font-size: 18px;
+    padding:15px 50px;
+    text-decoration: none;
+    color:#ffffff!important;
+    border-radius:5px;
+
+}
+
+.price-btn .buy-btn:hover{
+    background:green;
+    transition:0.5s;
+    cursor: pointer;
+}
+
+#testi{
+    padding: 50px 0px;
+}
+
+.profile{
+    background: #efefef;
+    padding: 70px 10px 10px;
+    position: relative;
+}
+
+.profile:hover{
+    box-shadow: 0px 2px 20px #555555;
+    transition:0.5s;
+}
+
+.profile .user{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+}
+
+.profile img{
+    border:10px solid white;
+    position: absolute;
+    top:-60px;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+.profile h3{
+    font-size: 20px;
+    margin-top:15px;
+    color: #0474BB;
+}
+
+.profile span{
+    font-size:14px;
+    color: #333333;
+
+
+}
+#testi .row{
+margin-top:90px;
+
+}
+
+blockquote{
+    font-size:14px;
+    line-height:25px;
+}
+
+blockquote::before{
+    content:'"';
+    font-size:25px;
+    color: #FBF304;
+}
+
+blockquote::after{
+    content:'"';
+    font-size:25px;
+    color: #FBF304;
+}
+
+#contact{
+    padding:50pdx 0px;
+    background:rgb(216, 216, 216);
+    
+}
+
+.contact-form{
+    padding: 15px;
+}
+
+.form-control{
+    border:none!important;
+}
+
+.follow{
+    background: #ffffff;
+    margin:20px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.follow .fas{
+    color:#0474BB;
+    margin: 3px;
+}
+
+.follow .fab{
+    color:#0474BB;
+    margin: 3px;
+}
+
+
+footer{
+    background:#111111;
+    color:#ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    color: #0474BB!important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer .fa-heart{
+    color:red;
+    margin: 3px;
+}
+
+
+/* Mobile-resize */
+
+@media(max-width : 991px){
+
+}
+
+@media(max-width : 480px){
+    .carousel-inner{
+        height: 30vh;
+    }
+
+    .service-bar{
+        padding: 30px;;
+    }
+    #promo p{
+        font-size:0.5em;
+
+    }
+    #testi .mobile-testi{
+        padding:30px;
+    }
+}
